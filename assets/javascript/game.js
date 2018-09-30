@@ -47,7 +47,7 @@ document.onkeyup = function (event) {
     }
 
 document.getElementById("wins-text").textContent = "Wins : " + wins;
-document.getElementById("losses-text").textContent = "Lost : " + losses;
+document.getElementById("losses-text").textContent = "Losses : " + losses;
 document.getElementById("guessesLeft-text").textContent = "Guesses Left : " + guessesLeft;
 document.getElementById("guessedSoFar-text").textContent = "Guessed So Far : " + guessedSoFar;
 
